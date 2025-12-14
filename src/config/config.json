@@ -1,0 +1,21 @@
+{
+  "data": {
+    "raw_dir": "data/raw",
+    "processed_dir": "data/processed",
+    "features_dir": "data/features"
+  },
+  "model": {
+    "n_clusters": 3,
+    "irt_samples": 1000,
+    "irt_tune": 1000,
+    "embedding_dim": 16
+  },
+  "api": {
+    "host": "0.0.0.0",
+    "port": 8000
+  },
+  "mlflow": {
+    "tracking_uri": "http://localhost:5000",
+    "experiment_name": "adaptive-learning-advanced"
+  }
+}

@@ -1,0 +1,17 @@
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.2.0
+matplotlib
+seaborn
+joblib
+pyyaml
+fastapi>=0.95.0
+uvicorn[standard]>=0.21.0
+mlflow>=2.3.0
+pymc>=5.0.0
+arviz>=0.15.0
+scipy
+sqlalchemy
+alembic
+docker
+boto3
